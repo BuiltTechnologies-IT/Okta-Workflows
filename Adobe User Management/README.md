@@ -2,6 +2,12 @@
 Author: Ty Kelley
 Company: Built Technologies - getbuilt.com
 
+<h4 align="center">
+  <a href="https://github.com/amplication/amplication/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
+  </a>
+</h4>
+
 ## Summary
 Given that Adobe does not offer a SCIM API, we decided that we would build a workflow to mimmoc the behaviors of a SCIM API using a variety of Okta Triggers and the Adobe User Management API. While Okta does provide a pre-built connector for the Adobe User Management API, many may find it challenging to build reliable triggers that mimmic that of the SCIM standard.
 
@@ -12,13 +18,19 @@ This folder contains two flos:
 2. Adobe - Remove from Groups
 
 ## Setup
-To use this flo, you will need to establish the following flos as triggers.
+To use this flo, you will need to establish the following flos as triggers:
+
 - Trigger - User removed from group (Okta)
 - Trigger - User added to a group (Okta)
 - Trigger - User profile updated (Okta)
 
-Also, you can follow Okta's docs for setting up the Adobe User Management API here -> https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm
-
 > :bulb: **Tip:** Reminder that you must have a VIP Account with Adobe to access the Adobe User Management API
 
+Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm) for setting up the Adobe User Management API.
+
 ## Screenshots
+<p align="center">
+    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9908a54a-7d49-4dbb-8f5e-3e99b7cadf30.png" alt="apis"/>
+&nbsp;
+    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
+</p>
