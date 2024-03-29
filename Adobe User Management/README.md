@@ -1,11 +1,5 @@
 # Adobe User Management
 
-<h4 align="center">
-  <a href="https://github.com/amplication/amplication/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
-  </a>
-</h4>
-
 ## Summary
 Given that Adobe does not offer a SCIM API, we decided that we would build a workflow to mimmoc the behaviors of a SCIM API using a variety of Okta Triggers and the Adobe User Management API. While Okta does provide a pre-built connector for the Adobe User Management API, many may find it challenging to build reliable triggers that mimmic that of the SCIM standard.
 
