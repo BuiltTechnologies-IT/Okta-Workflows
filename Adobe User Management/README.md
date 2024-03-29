@@ -21,7 +21,12 @@ To use this flo, you will need to establish the following flos as triggers:
 
 Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm) for setting up the Adobe User Management API.
 
-## Screenshots
+<details>
+<summary>
+  Screenshots
+</summary>
+</details>
+
 <p align="center">
     <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
 &nbsp;
