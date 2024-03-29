@@ -1,5 +1,5 @@
-# Adobe User Management
 <h1 align="center">
+Adobe User Management
     <a href="https://amplication.com/#gh-light-mode-only">
     <img src="/Adobe%20User%20Management/assets/images/aum-logo.png">
     </a>
