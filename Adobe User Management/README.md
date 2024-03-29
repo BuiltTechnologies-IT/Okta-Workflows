@@ -28,7 +28,7 @@ Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/
 
 ## Screenshots
 <p align="center">
-    <img width="49%" src="/assets/images/aum_hander_Overview.png" alt="overview"/>
+    <img width="49%" src="https://github.com/amplication/amplication//assets/images/aum_hander_Overview.png" alt="overview"/>
 &nbsp;
     <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
 </p>
@@ -42,7 +42,7 @@ change the height and width for each of the contributors from 80 to 50.
 --->
 
 [//]: contributor-faces
-<a href="https://github.com/yuval-hazaz"><img src="https://avatars.githubusercontent.com/u/43705455?v=4" title="yuval-hazaz" width="50" height="50"></a>
+<a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="yuval-hazaz" width="50" height="50"></a>
 [//]: contributor-faces
 
 ## License
