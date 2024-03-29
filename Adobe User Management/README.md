@@ -5,9 +5,10 @@ Given that Adobe does not offer a SCIM API, we decided that we would build a wor
 
 ## What's in the Box?
 This folder contains two flos:
-1. Adobe - Create/Update/Manage User
+1. `Adobe - Create/Update/Manage User`
 - This is the primary flo that handles all actions of a traditional SCIM connector in a single flo. It uses if/else/if logic to track triggers from upstream flos and take a corresponding action.
-2. Adobe - Remove from Groups
+2. `Adobe - Remove from Groups`
+- This is a helper flow that cleans up any left over group assignments in Okta when the user is removed from the application assignment group (app_adobe_users).
 
 ## Setup
 To use this flo, you will need to establish the following flos as triggers:
