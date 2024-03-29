@@ -1,10 +1,10 @@
 <h1 align="center">
 Adobe User Management
     <a href="https://amplication.com/#gh-light-mode-only">
-    <img src="/assets/built-logo-light-mode.svg">
+    <img src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-light-mode.svg">
     </a>
     <a href="https://amplication.com/#gh-dark-mode-only">
-    <img src="/assets/built-logo-dark-mode.svg">
+    <img src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-dark-mode.svg">
     </a>
 </h1>
 
