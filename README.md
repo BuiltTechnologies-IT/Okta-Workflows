@@ -6,6 +6,6 @@ Flows are grouped by their primary purpose or app.
 # Examples
 
 ## Flows
-- [Adobe User Management (Handler Flow)](/Google%20Workspace/offboard_google_workspace_users)
+- [Adobe User Management (Handler Flow)](/Adobe%20User%20Management)
 
 ## Connectors
