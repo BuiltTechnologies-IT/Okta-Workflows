@@ -21,6 +21,6 @@ To use this flo, you will need to establish the following flos as triggers.
 
 Also, you can follow Okta's docs for setting up the Adobe User Management API here -> https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm
 
-!! Reminder that you must have a VIP Account with Adobe to access the Adobe User Management API
+> :bulb: **Tip:** Reminder that you must have a VIP Account with Adobe to access the Adobe User Management API
 
 ## Screenshots
