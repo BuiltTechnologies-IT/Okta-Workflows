@@ -24,7 +24,7 @@ Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/
 <p align="center">
     <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
 &nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
+    <img width="49%" src="" alt="data-models"/>
 </p>
 
 ## Contributors
