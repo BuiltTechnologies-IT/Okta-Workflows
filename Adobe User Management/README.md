@@ -1,4 +1,6 @@
 # Adobe User Management
+<p align="center">
+    <img width="100%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
 
 ## Summary
 Given that Adobe does not offer a SCIM API, we decided that we would build a workflow to mimmoc the behaviors of a SCIM API using a variety of Okta Triggers and the Adobe User Management API. While Okta does provide a pre-built connector for the Adobe User Management API, many may find it challenging to build reliable triggers that mimmic that of the SCIM standard.
@@ -25,13 +27,32 @@ Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/
 <summary>
   Screenshots
 </summary>
-</details>
+
+<p align="center">
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userAssigned.png" alt="overview"/>
+&nbsp;
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userRemoved.png" alt="data-models"/>
+</p>
+
+<p align="center">
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userGroupAdded.png" alt="overview"/>
+&nbsp;
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userGroupRemoved.png" alt="data-models"/>
+</p>
+
+<p align="center">
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userProfileUpdate.png" alt="overview"/>
+&nbsp;
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="data-models"/>
+</p>
 
 <p align="center">
     <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
 &nbsp;
-    <img width="49%" src="" alt="data-models"/>
+    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="data-models"/>
 </p>
+
+</details>
 
 ## Contributors
 
