@@ -13,11 +13,9 @@ This folder contains two flos:
 
 ## Setup
 To use this flo, you will need to establish the following flos as triggers.
-> Trigger - User removed from group (Okta)
->
-> Trigger - User added to a group (Okta)
->
-> Trigger - User profile updated (Okta)
+- Trigger - User removed from group (Okta)
+- Trigger - User added to a group (Okta)
+- Trigger - User profile updated (Okta)
 
 Also, you can follow Okta's docs for setting up the Adobe User Management API here -> https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm
 
