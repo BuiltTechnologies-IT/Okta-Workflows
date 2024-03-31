@@ -1,9 +1,9 @@
 <h1 align="center">
     <a href="https://getbuilt.com/#gh-light-mode-only">
-    <img src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-light-mode.svg">
+    <img width="10%" src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-light-mode.svg">
     </a>
     <a href="https://getbuilt.com/#gh-dark-mode-only">
-    <img src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-dark-mode.svg">
+    <img width="10%" src="https://github.com/BuiltTechnologies-IT/Okta-Workflows/blob/main/Adobe%20User%20Management/assets/images/built-logo-dark-mode.svg">
     </a>
 </h1>
 
