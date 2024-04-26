@@ -17,14 +17,14 @@
 ## Summary
 Okta treats devices and users as isolated objects, creating problems with deativated user identities remaining tied to active devices in Okta. As a best pratice, we deactivate and delete user devices during our offboarding process. These flows can be used to pull a list of devices associated with a user, ensure there are no active user identities using those devices, then deactivate and delete the devices from Okta.
 
-> :warning: **Unofficial API:** This workflow contains an undocumented API call `/api/v1/users/{userID}/devices` to retrieve a list of the users devices. Undocumented API calls may be changed without notice.
+> :warning: **Unofficial API:** This workflow contains an undocumented API call. Undocumented API calls may be changed without notice.
 
 ## What's in the Box?
 This folder contains three flos:
 1. `Device Offboarding Search`
 - This flow is the top-level helper flow which uses an unofficial API endpoint to get a list of devices assigned to a user in Okta. It then calls a helper flow to deactivate and delete each device reutned by the API call.
 2. `Okta Device Removal`
-- This helper flow is called for each device assigned to the user in Okta. The first part of the flow uses Okta's `devices` API to issue a List Devices call with expanded results that includes all users assigned to the device. The flow then checks to see if any of the users assigned to the device have a status of `ACTIVE`. This is important because devices in Okta have a many-to-many relationship, where many users can be tied to many devices. We don't want to deactivate or delete a device that is assigned to an active user in Okta. Once confirming the device has no active users, we then use the deactivate URL conveniently provided in the device object to deactivate the device. Finally, we call a helper flow to delete the device from Okta.
+- This helper flow is called for each device assigned to the user in Okta. The first part of the flow uses Okta's devices API to issue a List Devices call with expanded results that includes all users assigned to the device. The flow then checks to see if any of the users assigned to the device have a status of `ACTIVE`. This is important because devices in Okta have a many-to-many relationship, where many users can be tied to many devices. We don't want to deactivate or delete a device that is assigned to an active user in Okta. Once confirming the device has no active users, we then use the deactivate URL conveniently provided in the device object to deactivate the device. Finally, we call a helper flow to delete the device from Okta.
 3. `Delete Okta Device`
 - This flow will delete any device whos status is `DEACTIVATED` from Okta using the devices API.
 
