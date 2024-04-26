@@ -39,7 +39,7 @@ To use this flo, you will need to establish the following flos as triggers:
 </summary>
 
 <p align="center">
-    <img width="49%" src="" alt="overview"/>
+    <img width="49%" src="/Okta Device Offboarding/assets/images/(HT) Device Offboarding Search.svg" alt="overview"/>
 &nbsp;
     <img width="49%" src="" alt="data-models"/>
 </p>
