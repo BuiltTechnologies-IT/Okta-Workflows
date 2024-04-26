@@ -12,28 +12,26 @@
 </p>
 
 <p align="center">
-    <img width="100%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
+    <img width="100%" src="/Okta%20Device%20Offboarding/assets/images/odo-header_overview.png" alt="overview"/>
 
 ## Summary
-Okta treats devices and users as isolated objects, creating problems with deativated user identities remaining tied to active devices in Okta. As a best pratice, we deactivate and delete user devices during our offboarding process. These flows can be used to pull a list of devices associated with a user, ensure there are no active user identities using those devices, then deactivating and deleting the device from Okta.
+Okta treats devices and users as isolated objects, creating problems with deativated user identities remaining tied to active devices in Okta. As a best pratice, we deactivate and delete user devices during our offboarding process. These flows can be used to pull a list of devices associated with a user, ensure there are no active user identities using those devices, then deactivate and delete the devices from Okta.
 
 ## What's in the Box?
-This folder contains two flos:
-1. `Adobe - Create/Update/Manage User`
+This folder contains three flos:
+1. `Device Offboarding Search`
 - This is the primary flo that handles all actions of a traditional SCIM connector in a single flo. It uses if/else/if logic to track triggers from upstream flos and take a corresponding action.
-2. `Adobe - Remove from Groups`
+2. `Okta Device Removal`
+- This is a helper flow that cleans up any left over group assignments in Okta when the user is removed from the application assignment group (app_adobe_users).
+3. `Delete Okta Device`
 - This is a helper flow that cleans up any left over group assignments in Okta when the user is removed from the application assignment group (app_adobe_users).
 
 ## Setup
 To use this flo, you will need to establish the following flos as triggers:
 
-- `Trigger` - User removed from group (Okta)
-- `Trigger` - User added to a group (Okta)
-- `Trigger` - User profile updated (Okta)
+- `Trigger` - User deativated (Okta)
 
 > :bulb: **Tip:** Reminder that you must have a `VIP` Account with Adobe to access the Adobe User Management API
-
-Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/en-us/Content/topics/workflows/connector-reference/adobeusermanagement/overview/authorization.htm) for setting up the Adobe User Management API.
 
 <details>
 <summary>
