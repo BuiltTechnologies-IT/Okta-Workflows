@@ -39,27 +39,15 @@ To use this flo, you will need to establish the following flos as triggers:
 </summary>
 
 <p align="center">
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userAssigned.png" alt="overview"/>
+    <img width="49%" src="" alt="overview"/>
 &nbsp;
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userRemoved.png" alt="data-models"/>
+    <img width="49%" src="" alt="data-models"/>
 </p>
 
 <p align="center">
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userGroupAdded.png" alt="overview"/>
+    <img width="49%" src="" alt="overview"/>
 &nbsp;
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userGroupRemoved.png" alt="data-models"/>
-</p>
-
-<p align="center">
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum-userProfileUpdate.png" alt="overview"/>
-&nbsp;
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="data-models"/>
-</p>
-
-<p align="center">
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
-&nbsp;
-    <img width="49%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="data-models"/>
+    <img width="49%" src="" alt="data-models"/>
 </p>
 
 </details>
