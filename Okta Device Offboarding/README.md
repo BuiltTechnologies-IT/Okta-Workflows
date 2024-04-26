@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-    <img width="100%" src="/Okta%20Device%20Offboarding/assets/images/odo-header_overview.png" alt="overview"/>
+    <img width="100%" src="/Okta Device Offboarding/assets/images/odo-header_overview.png" alt="overview"/>
 
 ## Summary
 Okta treats devices and users as isolated objects, creating problems with deativated user identities remaining tied to active devices in Okta. As a best pratice, we deactivate and delete user devices during our offboarding process. These flows can be used to pull a list of devices associated with a user, ensure there are no active user identities using those devices, then deactivate and delete the devices from Okta.
