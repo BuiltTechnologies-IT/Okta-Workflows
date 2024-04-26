@@ -39,15 +39,13 @@ To use this flo, you will need to establish the following flos as triggers:
 </summary>
 
 <p align="center">
-    <img width="49%" src="/Okta Device Offboarding/assets/images/odo-oktaDeviceRemoval.png" alt="overview"/>
+    <img width="49%" src="/Okta Device Offboarding/assets/images/odo-oktaDeviceRemoval.png" alt="Okta Device Removal Flow"/>
 &nbsp;
-    <img width="49%" src="/Okta Device Offboarding/assets/images/odo-deviceOffboardingSearch.png" alt="data-models"/>
+    <img width="49%" src="/Okta Device Offboarding/assets/images/odo-deviceOffboardingSearch.png" alt="Device Offboarding Search Flow"/>
 </p>
 
 <p align="center">
-    <img width="49%" src="" alt="overview"/>
-&nbsp;
-    <img width="49%" src="" alt="data-models"/>
+    <img width="49%" src="/Okta Device Offboarding/assets/images/odo-deleteOktaDevice.png" alt="Delete Okta Device"/>
 </p>
 
 </details>
