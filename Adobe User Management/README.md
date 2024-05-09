@@ -20,12 +20,12 @@ Given that Adobe does not offer a SCIM API, we decided that we would build a wor
 ## What's in the Box?
 This folder contains two flos:
 1. `Adobe - Create/Update/Manage User`
-- This is the primary flo that handles all actions of a traditional SCIM connector in a single flo. It uses if/else/if logic to track triggers from upstream flos and take a corresponding action.
+- This is the primary flow that handles all actions of a traditional SCIM connector in a single flow. It uses if/else/if logic to track triggers from upstream flos and take a corresponding action.
 2. `Adobe - Remove from Groups`
 - This is a helper flow that cleans up any left over group assignments in Okta when the user is removed from the application assignment group (app_adobe_users).
 
 ## Setup
-To use this flo, you will need to establish the following flos as triggers:
+To use this flow, you will need to establish the following flos as triggers:
 
 - `Trigger` - User removed from group (Okta)
 - `Trigger` - User added to a group (Okta)
@@ -68,13 +68,7 @@ Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/
 
 ## Contributors
 
-<!---
-npx contributor-faces --exclude "*bot*" --limit 70 --repo "https://github.com/amplication/amplication"
-
-change the height and width for each of the contributors from 80 to 50.
---->
-
 [//]: contributor-faces
-<a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="yuval-hazaz" width="50" height="50"></a>
+<a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="wonderc0de" width="50" height="50"></a>
 
 ## License
