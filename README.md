@@ -7,10 +7,6 @@
     </a>
 </h1>
 
-<p align="center">
-  <i align="center">Courtesy of Built Technologies 🚀</i>
-</p>
-
 # Okta Workflows
 A collections of Okta Workflows built in collaboration with my team and other opensource repos.
 
