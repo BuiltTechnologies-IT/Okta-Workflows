@@ -20,7 +20,7 @@ Okta treats devices and users as isolated objects, creating problems with deacti
 > :warning: **Unofficial API:** This workflow contains an undocumented API call. Undocumented API calls may be changed without notice.
 
 ## What's in the Box?
-This folder contains three flos:
+This folder contains three flows:
 1. `Device Offboarding Search`
 - This flow is the top-level helper flow which uses an unofficial API endpoint to get a list of devices assigned to a user in Okta. It then calls a helper flow to deactivate and delete each device returned by the API call.
 2. `Okta Device Removal`
@@ -29,7 +29,7 @@ This folder contains three flos:
 - This flow will delete any device whos status is `DEACTIVATED` from Okta using the devices API.
 
 ## Setup
-To use this flo, you will need to establish the following flos as triggers:
+To use this flow, you will need to establish the following flows as triggers:
 
 - `Trigger` - User deactivated (Okta)
 
