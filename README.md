@@ -19,7 +19,7 @@ Flows are grouped by their primary purpose or app.
 # Examples
 
 ## Flows
-- [Adobe User Management (Handler Flow)](/Adobe%20User%20Management)
-- [Okta Device Offboarding]('/Okta Device Offboarding')
+- [Adobe User Management](/Adobe%20User%20Management)
+- [Okta Device Offboarding](/Okta%20Device%20Offboarding/)
 
 ## Connectors
