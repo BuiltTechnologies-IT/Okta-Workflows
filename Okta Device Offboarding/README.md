@@ -59,7 +59,7 @@ change the height and width for each of the contributors from 80 to 50.
 --->
 
 [//]: contributor-faces
-<a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="wonderc0d" width="50" height="50"></a>
+<a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="wonderc0de" width="50" height="50"></a>
 <a href="https://github.com/wellwellelle"><img src="https://avatars.githubusercontent.com/u/57826707?v=4" title="wellwellelle" width="50" height="50"></a>
 
 ## License
