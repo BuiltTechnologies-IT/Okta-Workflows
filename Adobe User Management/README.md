@@ -72,3 +72,4 @@ Also, you can follow Okta's [docs](https://built.workflows.okta.com/app/help/wf/
 <a href="https://github.com/wonderc0de"><img src="https://avatars.githubusercontent.com/u/139813346?v=4" title="wonderc0de" width="50" height="50"></a>
 
 ## License
+This project is licensed under the [MIT](./LICENSE) license.
