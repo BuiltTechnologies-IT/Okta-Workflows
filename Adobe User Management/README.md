@@ -15,7 +15,7 @@
     <img width="100%" src="/Adobe%20User%20Management/assets/images/aum_hander_Overview.png" alt="overview"/>
 
 ## Summary
-Given that Adobe does not offer a SCIM API, we decided that we would build a workflow to mimmoc the behaviors of a SCIM API using a variety of Okta Triggers and the Adobe User Management API. While Okta does provide a pre-built connector for the Adobe User Management API, many may find it challenging to build reliable triggers that mimmic that of the SCIM standard.
+Given that Adobe does not offer a SCIM API, we decided that we would build a workflow to mimic the behaviors of a SCIM API using a variety of Okta Triggers and the Adobe User Management API. While Okta does provide a pre-built connector for the Adobe User Management API, many may find it challenging to build reliable triggers that mimmic that of the SCIM standard.
 
 ## What's in the Box?
 This folder contains two flos:
