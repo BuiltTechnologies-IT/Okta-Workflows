@@ -24,28 +24,28 @@ This folder contains three flows and one table:
 1. `Helper Trigger - Add Resource to set`
 - This is the primary flow that pulls the table entries for the passed through resourceType, and passes them through the helper flows to be processed. It's set up as a helper flow that gets triggered when a resource is created. We use individual trigger flows for the main Okta triggers (Group Created, App Created, etc.) that are central triggers for all flows that utelize them, but you could adjust this to specifically be the trigger if you only wanted to focus on one resource type.
 
-<div style="text-align: center;">
+<div align="center">
     <img style="padding-bottom: 10px; padding-top: 10px;" width="80%" src="/Okta%20Resource%20Set%20Manager/assets/helperTriggerAddResourceToSet.png" alt="overview"/>
 </div>
 
 2. `Filter Resource Table Results`
 - This helper flow takes the row objects from the prior flow and validates the resource (currently the group) against the regex statement of each returned line from the table. If it matches the pattern, it returns true (which returns the object) and if not it ignores it.
 
-<div style="text-align: center;">
+<div align="center">
     <img  style="padding-bottom: 10px; padding-top: 10px;" width="80%" src="/Okta%20Resource%20Set%20Manager/assets/filterResourceTableResults.png" alt="overview"/>
 </div>
 
 3. `Add Resource to Resource Set`
 - This helper flow that processes all the items returned from the prior flow. It builds the api endpoint url based on the resourceType value (currently just set up for groups, but is built to be easily expanded to other resourceTypes), replaces the {{resourceId}} placeholder with the actual resourceId, does the same thing with the resource set management endpoint, format's the additions object, then calls the ["Add more resources to a resource set"](https://developer.okta.com/docs/api/openapi/okta-management/management/tag/RoleCResourceSetResource/#tag/RoleCResourceSetResource/operation/addResourceSetResources) endpoint to add them to the resource set.
 
-<div style="text-align: center;">
+<div align="center">
     <img  style="padding-bottom: 10px; padding-top: 10px;" width="80%" src="/Okta%20Resource%20Set%20Manager/assets/addResourceToResourceSet.png" alt="overview"/>
 </div>
 
 4. `Resource Set Automation Mapping`
 - This table is where you'll enter in the resource set information (Name and ID), resourceType tied to it, and the regex statement for the resource filtering. Currently this is set up to only use a regex name match, but it could be adapted to use other resource atributes with an extra column to identify them, and an if/else statement in the `Filter Resource Table Results` table to handle them.
 
-<div style="text-align: center;">
+<div align="center">
     <img  style="padding-bottom: 10px; padding-top: 10px;" width="80%" src="/Okta%20Resource%20Set%20Manager/assets/resourceSetAutomationMapping.png" alt="overview"/>
 </div>
 
