@@ -19,6 +19,7 @@ We're working on adding examples of our work. Check back soon!
 - [Adobe User Management](/Adobe%20User%20Management)
 - [Okta Device Offboarding](/Okta%20Device%20Offboarding/)
 - [PagerDuty Offboarding - On-Call Schedule Removal](/PagerDuty%20Offboarding%20-%20On-Call%20Schedule%20Removal/)
+- [Okta Resource Set Manager](/Okta%20Resource%20Set%20Manager/)
 
 ## Connectors
 Custom workflow connectors will be coming soon for the following apps:
